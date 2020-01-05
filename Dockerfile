@@ -9,7 +9,7 @@ FROM httpd:2.4
 LABEL \
 	version="2.0" \
 	description="Apache2 + nano + index.html" \
-	creationDate="05-01-2020"  \
+	creationDate="06-01-2020"  \
 	maintainer="Eduardo Hernandez García <edhernandez@birt.eus>"
 
 # Ejecutamos diferentes comandos
