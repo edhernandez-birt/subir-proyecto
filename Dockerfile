@@ -3,15 +3,14 @@
 FROM httpd:2.4
 
 # Indica el responsable del fichero  //DEPRECATED, Se pasa a LABEL
-# MAINTAINER Nora San Saturnino <nsansaturnino@birt.eus>
 
 # Da información sobre la imagen que estamos creando
 # Podemos usar la \ para encadenar todos los valores
 LABEL \
 	version="2.0" \
 	description="Apache2 + nano + index.html" \
-	creationDate="23-09-2019"  \
-	maintainer="Nora San Saturnino <nsansaturnino@birt.eus>"
+	creationDate="05-01-2020"  \
+	maintainer="Eduardo Hernandez García <edhernandez@birt.eus>"
 
 # Ejecutamos diferentes comandos
 # Debemos encadenarlos en un mismo RUN mediante la \
